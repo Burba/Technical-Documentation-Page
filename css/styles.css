@@ -1,0 +1,88 @@
+body {
+  margin: 0;
+  padding: 0;
+  vertical-align: top;
+  box-sizing: border-box;
+  background-color: #eee;
+  font-family: "Open Sans", Arial, sans-serif;
+}
+
+.nav-section {
+  width: 25%;
+  display: inline-block;
+  overflow-y: scroll;
+  height: 650px;
+  position: fixed;
+}
+
+header {
+  width: 25%;
+  position: fixed;
+  background-color: #eee;
+}
+
+header > h2 {
+  text-align: center;
+}
+
+.nav-section > .links > a {
+  display: block;
+  border-top: 1px solid black;
+  text-decoration: none;
+  line-height: 50px;
+  padding-left: 24px;
+}
+
+.nav-section > .links > a:last-of-type {
+  border-bottom: 1px solid black;
+}
+
+.nav-section > .links > a:first-of-type{
+  border-top: 1px solid black;
+  margin-top: 70px;
+}
+
+
+.content-section {
+  width: 70%;
+  float: right;
+  display: inline-block;
+  margin-top: 20px;
+}
+
+.documentation {
+  margin-right: 50px;
+}
+
+.grey-background {
+  background-color: #c5c5c5;
+  font-family: monospace;
+  margin-left: 32px;
+  opacity: 0.7;
+}
+
+.grey-background > p {
+  padding-left: 20px;
+  line-height: 38px;
+}
+
+.content-section > .documentation > p {
+  padding-left: 12px;
+}
+
+.content-section > .documentation > ul {
+  padding-left: 60px;
+}
+
+li {
+  margin-bottom: 16px;
+}
+
+.links > a:visited {
+  color: black;
+}
+
+#ulItems {
+  padding-top: 16px;
+}
+
